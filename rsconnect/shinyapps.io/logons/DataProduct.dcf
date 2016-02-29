@@ -1,0 +1,8 @@
+name: DataProduct
+account: logons
+server: shinyapps.io
+bundleId: 383090
+url: https://logons.shinyapps.io/DataProduct/
+when: 1456721243.75535
+asMultiple: FALSE
+asStatic: FALSE

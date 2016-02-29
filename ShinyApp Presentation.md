@@ -19,18 +19,27 @@ Note: Please use the HELP tab on the app to know how to use use the app and test
 Purpose : Explore data in tabular format.
 ========================================================
 
-```{r}
+
+```r
 library(dplyr)
 Tab1 <- iris %>% select(Sepal.Length,Petal.Length) %>% filter(Sepal.Length == 5.1)
 head(Tab1)
 ```
 
+```
+  Sepal.Length Petal.Length
+1          5.1          1.4
+2          5.1          1.4
+3          5.1          1.5
+4          5.1          1.5
+5          5.1          1.7
+6          5.1          1.5
+```
+
 Purpose: Visualize data by selecting columns.
 ========================================================
 
-```{r, echo=FALSE}
-plot(iris, main="Iris Data")
-```
+![plot of chunk unnamed-chunk-2](ShinyApp Presentation-figure/unnamed-chunk-2-1.png) 
 
 
 How to access Shiny App & Code.
